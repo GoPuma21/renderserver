@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Example license keys and expiration dates (Unix timestamp)
 valid_keys = {
-    "ABC123-XYZ789": {"expires_at": 1767225600},  # Jan 31, 2026
+    "ABC123-XYZ789": {"expires_at": 1893474119},  # Jan 31, 2026
     "DEF456-GHI012": {"expires_at": 1767225600},
 }
 
@@ -21,3 +21,4 @@ def validate():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
