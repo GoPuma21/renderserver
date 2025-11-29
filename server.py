@@ -10,6 +10,7 @@ valid_keys = {
     "DEF456-GHI012": {"expires_at": 1767225600},
     "DEG422-JJIJ12": {"expires_at": 1700917013},  # Nov 24, 2023
     "XYZ999-AAA111": {"expires_at": 1764379975},  # Nov 29, 2025
+    "LMN321-OPQ654": {"expires_at": 1766973654},  # Dec 29, 2025
 }
 
 @app.route("/validate", methods=["POST"])
@@ -23,3 +24,4 @@ def validate():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
