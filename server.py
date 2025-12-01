@@ -28,7 +28,7 @@ valid_keys = {
     },
     "UHJKA3-666AWE": {
         "expires_at": 1769732115,  # Jan 01, 2026
-        "download_url": "https://www.dropbox.com/s/bgkdw89mrym18rikdmgdy/Pianobot.exe?dl=1"
+        "download_url": "https://drive.google.com/uc?export=download&id=1R9XuoI8XxivVkpHC_P1Lk3uNmm1LWGe_"
     },
 }
 
@@ -47,5 +47,6 @@ def validate():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
 
 
