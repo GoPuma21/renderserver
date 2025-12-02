@@ -10,8 +10,8 @@ valid_keys = {
         "expires_at": 1767225600,  # Jan 31, 2026
         "download_url": "https://github.com/GoPuma21/application/releases/download/Release/app.exe"
     },
-    "DEF456-GHI012": {
-        "expires_at": 1767225600,
+    "AFK666-GHOUL3": {
+        "expires_at": 1764752863, # Dec 02, 2025
         "download_url": "https://github.com/GoPuma21/application/releases/download/Release/app.exe"
     },
     "DEG422-JJIJ12": {
@@ -47,6 +47,7 @@ def validate():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
 
 
 
