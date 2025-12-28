@@ -26,6 +26,14 @@ valid_keys = {
         "expires_at": 1766973654,  # Dec 29, 2025
         "download_url": "https://github.com/GoPuma21/application/releases/download/Release/app.exe"
     },
+    "KOTLET-632YPK": {
+        "expires_at": 1768873662,  # Dec 29, 2025
+        "download_url": "https://github.com/GoPuma21/application/releases/download/Release/app.exe"
+    },
+    "ZIMNO1-721722": {
+        "expires_at": 1768873662,  # Dec 29, 2025
+        "download_url": "https://github.com/GoPuma21/application/releases/download/Release/app.exe"
+    },
     "UHJKA3-666AWE": {
         "expires_at": 1769732115,  # Jan 01, 2026
         "download_url": "https://github.com/GoPuma21/pianobot/blob/main/Pianobot.exe"
@@ -47,6 +55,7 @@ def validate():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
 
 
 
