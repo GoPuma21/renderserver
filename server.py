@@ -14,6 +14,10 @@ valid_keys = {
         "expires_at": 1769732115,  # Jan 01, 2026
         "download_url": "https://github.com/GoPuma21/pianobot/blob/main/Pianobot.exe"
     },
+    "OPT363-USAWEL": {
+        "expires_at": 1770262488,  # Jan 05, 2026
+        "download_url": "https://github.com/GoPuma21/application/releases/download/Release/app.exe"
+    },
 }
 
 @app.route("/validate", methods=["POST"])
@@ -31,6 +35,7 @@ def validate():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
+
 
 
 
